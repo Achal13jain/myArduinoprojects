@@ -1,3 +1,9 @@
+// Components Required:
+// Arduino Uno (with ATmega8)
+// Ultrasonic sensor (HC-SR04)
+// LCD display (16x2)
+// Breadboard and jumper wires
+
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,20,4);
 float cm; //initializing variables
